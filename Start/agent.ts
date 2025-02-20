@@ -1,7 +1,7 @@
 // agent.ts
 
 import dotenv from 'dotenv';
-dotenv.config();
+dotenv.config({ path: '../.env' });
 
 // IMPORTANT - Add your API keys here. Be careful not to publish them.
 process.env.OPENAI_API_KEY = process.env.OPENAI_API_KEY;
