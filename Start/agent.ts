@@ -3,10 +3,7 @@
 import dotenv from 'dotenv';
 dotenv.config({ path: '../.env' });
 
-// IMPORTANT - Add your API keys here. Be careful not to publish them.
-process.env.OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 process.env.TAVILY_API_KEY = process.env.TAVILY_API_KEY;
-
 process.env.AZURE_OPENAI_ENDPOINT = process.env.AZURE_OPENAI_ENDPOINT;
 process.env.AZURE_OPENAI_KEY = process.env.AZURE_OPENAI_KEY;
 process.env.AZURE_OPENAI_API_INSTANCE_NAME = process.env.AZURE_OPENAI_API_INSTANCE_NAME;
