@@ -1,0 +1,16 @@
+{
+  "name": "langraph-agent",
+  "version": "1.0.0",
+  "main": "agent.ts",
+  "type": "module",
+  "scripts": {
+  "start": "node ./agent.ts"
+},
+  "dependencies": {
+    "@langchain/community": "^0.3.31",
+    "@langchain/core": "^0.3.40",
+    "@langchain/langgraph": "^0.2.46",
+    "@langchain/openai": "^0.4.4",
+    "dotenv": "^16.4.7"
+  }
+}
