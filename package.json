@@ -4,7 +4,7 @@
   "main": "agent.ts",
   "type": "module",
   "scripts": {
-    "start": "node ./agent.ts"
+    "start": "npx tsx ./Start/agent.ts"
   },
   "dependencies": {
     "@langchain/community": "^0.3.31",
